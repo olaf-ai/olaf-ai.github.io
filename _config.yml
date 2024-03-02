@@ -1,0 +1,94 @@
+# Site settings
+title: "OLAF.AI"
+description: "I’m a AI Engineer in Vin Bigdata. And I summarize research papers in these topics:"
+url: 'https://phanxuanphucnd.github.io/'
+cover: images/olaf-center.png
+baseurl: ''
+google_analytics: 'G-NA24071997'
+disqus_shortname: 'OLAF.AI'
+
+author:
+  name: 'OLAF.AI'
+  pronouns: "olaf.ai"
+  email: theolafwall@gmail.com
+  github:  olaf-ai
+  linkedin:  phanxuanphucnd
+  google_scholar: ipcDPCQAAAAJ&hl=vi
+  fb: theolafwall
+
+collections_dir: my_collections
+collections:
+  language-modeling:
+    output: true
+    permalink: /:collection/:path
+    title: "Language Modeling"
+    show: true
+  word-embedding:
+    output: true
+    permalink: /:collection/:path
+    title: "Word Embedding"
+    show: true
+  text-classification:
+    output: true
+    permalink: /:collection/:path
+    title: "Text Classification"
+    show: true
+  extraction:
+    output: true
+    permalink: /:collection/:path
+    title: "Extraction"
+    show: true
+  machine-translation:
+    output: true
+    permalink: /:collection/:path
+    title: "Machine Translation"
+    show: true
+  multilingual-nmt:
+    output: true
+    permalink: /:collection/:path
+    title: "Multilingual NMT"
+    show: true
+  cross-lingual-lm:
+    output: true
+    permalink: /:collection/:path
+    title: "Cross-lingual Langluage Model"
+    show: true
+  chatgpt:
+    output: true
+    permalink: /:collection/:path
+    title: "ChatGPT"
+    show: true
+  misc:
+    output: true
+    permalink: /:collection/:path
+    title: "Misc."
+    show: false
+
+defaults:
+  -
+    scope:
+      path: "my_collections/*" # all files inside my_collections
+    values:
+      layout: "post" #post.html
+
+# Build settings
+destination: _site
+# paginate: 10
+# permalink: /:collection
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  mathjax: true  #use mathjax to process math equations
+  input: GFM # use Github Flavored Markdown
+  hard_wrap: false # do not replace newlines by <br>
+
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-spaceship
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
