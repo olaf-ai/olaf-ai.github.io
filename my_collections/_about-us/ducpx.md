@@ -5,5 +5,7 @@ cover: /ducpx0.png
 labs: ["Telio"]
 ---
 
-- 🔭 AI/ CV Research & Engineer
-- 📫 | [Github](https://github.com/phanxuanduc1996) | [LinkedIn]() | [X (Twitter)]() | [Facebook](https://www.facebook.com/phanxuanduc1996) |
+🔭 AI/ CV Research & Engineer
+
+
+📫 | [Github](https://github.com/phanxuanduc1996) | [LinkedIn]() | [X (Twitter)]() | [Facebook](https://www.facebook.com/phanxuanduc1996) |
