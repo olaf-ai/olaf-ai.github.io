@@ -1,8 +1,8 @@
 ---
-title: "GPT-3"
-date: 2020-05-28
-cover: /image0.png
-labs: ["Open AI"]
+title: "Phuc Phan"
+date: 1997-07-24
+cover: /phucpx0.png
+labs: ["Prep.VN"]
 ---
 
 - 🔭 AI/ NLP Research & Engineer 
