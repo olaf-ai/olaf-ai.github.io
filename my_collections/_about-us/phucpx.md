@@ -1,7 +1,7 @@
 ---
 title: "Phuc Phan"
 date: 1997-07-24
-cover: /phucpx0.png
+cover: /phucpx0.jpg
 labs: ["Prep.VN"]
 ---
 
