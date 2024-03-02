@@ -9,7 +9,7 @@ disqus_shortname: 'OLAF.AI'
 
 author:
   name: 'OLAF.AI'
-  pronouns: "The Olaf Wall"
+  pronouns: "Onward, Living A Future"
   email: theolafwall@gmail.com
   github:  olaf-ai
   linkedin:  phanxuanphucnd
@@ -18,22 +18,16 @@ author:
 
 collections_dir: my_collections
 collections:
-  language-modeling:
+  about-us:
     output: true
     permalink: /:collection/:path
-    title: "Language Modeling"
+    title: "About Us"
     show: true
 
-  word-embedding:
+  stories:
     output: true
     permalink: /:collection/:path
-    title: "Word Embedding"
-    show: true
-
-  text-classification:
-    output: true
-    permalink: /:collection/:path
-    title: "Text Classification"
+    title: "Stories"
     show: true
 
 defaults:
