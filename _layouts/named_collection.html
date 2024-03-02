@@ -35,9 +35,9 @@ layout: default
           <div class="timeline-panel">
             <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </h2>
-            <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
+            <p class="excerpt">{{ post.excerpt }}&hellip;</p>
             <div class="post-list__meta">
-              <time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}" class="post-list__meta--date date"> Date of birth :
+              <time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}" class="post-list__meta--date date"> Date of birth:
                 {{ post.date | date: "%-d %b %Y" }}</time>
             </div>
             <hr class="post-list__divider">
