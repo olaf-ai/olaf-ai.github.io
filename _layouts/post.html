@@ -6,10 +6,10 @@ layout: default
     <div class="post-meta">
       <p class="post-meta__body">
         <i class="medium-icon iconify-inline" data-icon="bi:clock-history"></i>
-        <span id="reading-time">
-          {% assign words = page.content | strip_html | number_of_words %}
-          {{ words | divided_by: 250 | plus: 1 }} mins read
-        </span>
+<!--        <span id="reading-time">-->
+<!--          {% assign words = page.content | strip_html | number_of_words %}-->
+<!--          {{ words | divided_by: 250 | plus: 1 }} mins read-->
+<!--        </span>-->
       </p>
 <!--      <time datetime="{{ page.date | date: '%Y-%m-%d %H:%M' }}" class="post-meta__body date">Date of birth: {{ page.date | date: "%-d %b %Y" }}</time>-->
       {% if page.labs.size > 0 %}
