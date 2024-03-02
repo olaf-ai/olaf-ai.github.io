@@ -1,5 +1,5 @@
 # Site settings
-title: "OLAF.AI"
+title: "Olaf.AI"
 description: "Onward, Living A Future"
 url: 'https://phanxuanphucnd.github.io/'
 cover: images/cover.png
@@ -23,46 +23,18 @@ collections:
     permalink: /:collection/:path
     title: "Language Modeling"
     show: true
+
   word-embedding:
     output: true
     permalink: /:collection/:path
     title: "Word Embedding"
     show: true
+
   text-classification:
     output: true
     permalink: /:collection/:path
     title: "Text Classification"
     show: true
-  extraction:
-    output: true
-    permalink: /:collection/:path
-    title: "Extraction"
-    show: true
-  machine-translation:
-    output: true
-    permalink: /:collection/:path
-    title: "Machine Translation"
-    show: true
-  multilingual-nmt:
-    output: true
-    permalink: /:collection/:path
-    title: "Multilingual NMT"
-    show: true
-  cross-lingual-lm:
-    output: true
-    permalink: /:collection/:path
-    title: "Cross-lingual Langluage Model"
-    show: true
-  chatgpt:
-    output: true
-    permalink: /:collection/:path
-    title: "ChatGPT"
-    show: true
-  misc:
-    output: true
-    permalink: /:collection/:path
-    title: "Misc."
-    show: false
 
 defaults:
   -
