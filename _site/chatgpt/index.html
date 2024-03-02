@@ -15,16 +15,9 @@
   
   
 
-  <title>Subword Embedding</title>
-  <meta name="title" content="Subword Embedding">
-  <meta name="description" content="Methods such as word2vec or GloVe ignore the internal structure of words
-and associate each word (or word sense) to a separate vector
-representation. For morphologically rich languages, there may be a
-significant number of rare word forms such that either a very large
-vocabulary must be maintained or a significant number of words are
-treated as out-of-vocabulary (OOV).
-
-">
+  <title>ChatGPT</title>
+  <meta name="title" content="ChatGPT">
+  <meta name="description" content="Onward, Living A Future Language Modeling,  Text Classification, and  Word Embedding">
   <meta name="author" content="OLAF.AI">
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
@@ -33,45 +26,24 @@ treated as out-of-vocabulary (OOV).
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Google / Search Engine Tags -->
-  <meta itemprop="name" content="Subword Embedding">
-  <meta itemprop="description" content="Methods such as word2vec or GloVe ignore the internal structure of words
-and associate each word (or word sense) to a separate vector
-representation. For morphologically rich languages, there may be a
-significant number of rare word forms such that either a very large
-vocabulary must be maintained or a significant number of words are
-treated as out-of-vocabulary (OOV).
-
-">
-  <meta itemprop="image" content="/word-embedding/media/subword_embedding/image1.png">
+  <meta itemprop="name" content="ChatGPT">
+  <meta itemprop="description" content="Onward, Living A Future Language Modeling,  Text Classification, and  Word Embedding">
+  <meta itemprop="image" content="//images/avatar.jpg">
 
   <!-- OpenGraph Meta Tags -->
   <meta property="og:url" content="http://localhost:4000">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Phuc Phan's Blog"/>
-  <meta property="og:title" content="Subword Embedding">
-  <meta property="og:description" content="Methods such as word2vec or GloVe ignore the internal structure of words
-and associate each word (or word sense) to a separate vector
-representation. For morphologically rich languages, there may be a
-significant number of rare word forms such that either a very large
-vocabulary must be maintained or a significant number of words are
-treated as out-of-vocabulary (OOV).
-
-">
-  <meta property="og:image" content="/word-embedding/media/subword_embedding/image1.png">
+  <meta property="og:title" content="ChatGPT">
+  <meta property="og:description" content="Onward, Living A Future Language Modeling,  Text Classification, and  Word Embedding">
+  <meta property="og:image" content="//images/avatar.jpg">
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Subword Embedding">
-  <meta name="twitter:description" content="Methods such as word2vec or GloVe ignore the internal structure of words
-and associate each word (or word sense) to a separate vector
-representation. For morphologically rich languages, there may be a
-significant number of rare word forms such that either a very large
-vocabulary must be maintained or a significant number of words are
-treated as out-of-vocabulary (OOV).
-
-">
+  <meta name="twitter:title" content="ChatGPT">
+  <meta name="twitter:description" content="Onward, Living A Future Language Modeling,  Text Classification, and  Word Embedding">
   
-  <meta name="twitter:image" content="/word-embedding/media/subword_embedding/image1.png">
+  <meta name="twitter:image" content="//images/avatar.jpg">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
@@ -98,7 +70,7 @@ treated as out-of-vocabulary (OOV).
   <meta name="theme-color" content="#ffffff">
   
   <link rel="stylesheet" href="/css/main.css?1709387647935303588">
-  <link rel="canonical" href="http://localhost:4000/word-embedding/subword_embedding">
+  <link rel="canonical" href="http://localhost:4000/chatgpt/">
   <link rel="alternate" type="application/rss+xml" title="Olaf.AI" href="/feed.xml">
   <script type="text/javascript" src="/js/jquery.v3.3.1.min.js"></script>
   <!-- <script type="text/javascript" src="/js/simple-jekyll-search.min.js"></script> -->
@@ -222,84 +194,10 @@ treated as out-of-vocabulary (OOV).
 
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
-        <article class="post-container post-container--single">
-  <header class="post-header">
-    <div class="post-meta">
-      <p class="post-meta__body">
-        <i class="medium-icon iconify-inline" data-icon="bi:clock-history"></i>
-        <span id="reading-time">
-          
-          1 mins read
-        </span>
-      </p>
-      <time datetime="2017-06-19 00:00" class="post-meta__body date">Published on arXiv on: 19 Jun 2017</time>
-      
-      <p class="post-meta__tags">Published by: <a href="/labs/#FAIR">FAIR</a></p>
-      
-    </div>
-  </header>
-
-  <section class="post">
-    <h1 id=Subword Embedding> Subword Embedding</h1>
-    <p>Methods such as word2vec or GloVe ignore the internal structure of words
-and associate each word (or word sense) to a separate vector
-representation. For morphologically rich languages, there may be a
-significant number of rare word forms such that either a very large
-vocabulary must be maintained or a significant number of words are
-treated as out-of-vocabulary (OOV).</p>
-
-<p>As previously stated, out-of-vocabulary words can significantly impact
-performance due to the loss of context from rare words. An approach that
-can help deal with this limitation is the use of subword embeddings
-proposed by this paper: “<a href="https://arxiv.org/pdf/1607.04606.pdf">Enriching Word Vectors with Subword
-Information</a>”, where vector
-representations $z_{g}$ are associated with character n-grams <em>g</em> and
-words $w_{i}$ are represented by the sum of the n-gram vectors:</p>
-
-\[w_{i} = \sum_{g \in \mathbb{G}_{w}}^{}z_{g}\]
-
-<p>For instance, the vector for the word “take” consists of the sum of the
-vectors for the n-grams {t, a, k, e, &lt;t, ta, ke, , e&gt;, &lt;ta, tak, ake,
-ke&gt;} when $n \in \lbrack 1,2,3\rbrack$ as show in the following figure:</p>
-
-<div align="center">
-    <img src="media/subword_embedding/image1.png" width="750" />
-</div>
-
-<p>As n-grams are shared across words, this allows for representation of
-even unseen words since an OOV word will still consist of n-grams that
-will have representations. Subword embeddings can significantly boost
-NLP tasks such as language modeling and text classification.</p>
-
-<p>TO BE CONTINUED…</p>
-
-  </section>
-</article>
-
+        <div class="main">
   
-  <br><br><br><br>
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    var disqus_config = function () {
-      this.page.url = 'http://localhost:4000/word-embedding/subword_embedding';
-      this.page.identifier = '/word-embedding/subword_embedding';
-    };
 
-    (function() {
-      var d = document, s = d.createElement('script');
-      s.src = 'https://OLAF.AI.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-  </script>
-  <noscript>
-    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-  </noscript>
-  <!-- <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
-
-
-
-
+  </div>
       </div>
       
 <footer class="footer">
