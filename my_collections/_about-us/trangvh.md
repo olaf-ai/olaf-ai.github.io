@@ -1,7 +1,8 @@
 ---
 title: "Ha Trang"
 date: 2001-01-01
-cover: /trangvh.jpg
+order: 4
+cover: /trangvh0.jpg
 labs: ["Base.VN"]
 ---
 

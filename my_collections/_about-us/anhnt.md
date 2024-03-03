@@ -1,7 +1,8 @@
 ---
 title: "Anh Nguyen"
 date: 2001-02-17
-cover: /anhnt0.jpg
+order: 3
+cover: /anhnt0.jpeg
 labs: ["The Accost"]
 ---
 

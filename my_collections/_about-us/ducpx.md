@@ -1,6 +1,7 @@
 ---
 title: "Duc Phan"
 date: 1996-06-06
+order: 2
 cover: /ducpx0.png
 labs: ["Telio"]
 ---

@@ -6,8 +6,8 @@
     <link>http://localhost:4000/</link>
     <description>Onward, Living A Future</description>
     <language>en-us</language>
-    <pubDate>Sat, 02 Mar 2024 20:54:07 +0700</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2024 20:54:07 +0700</lastBuildDate>
+    <pubDate>Sun, 03 Mar 2024 22:35:54 +0700</pubDate>
+    <lastBuildDate>Sun, 03 Mar 2024 22:35:54 +0700</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     <image>
       <title>Olaf.AI</title>
@@ -19,40 +19,25 @@
     
       
       <item>
-        <title>RNN: Recurrent Neural Networks</title>
-        <description>The neural n-gram language model we've seen earlier was trained using
-the a window-sized subset of the previous tokens. And this falls short
-with long sentences as where the contextual dependencies are longer than
-the window size. Now, we need a model that is able to capture
-dependencies outside the window. In other words, we need a system that
-has some kind of memory to save these long dependencies.
+        <title>Duc Phan</title>
+        <description>🔭 AI/ CV Research &amp; Engineer
 
 </description>
-        <pubDate>Thu, 19 Sep 1985 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/language-modeling/RNN</link>
-        <guid isPermaLink="true">http://localhost:4000/language-modeling/RNN</guid>
+        <pubDate>Thu, 06 Jun 1996 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/about-us/ducpx</link>
+        <guid isPermaLink="true">http://localhost:4000/about-us/ducpx</guid>
         
         
       </item>
       
       <item>
-        <title>Neural N-gram Language Model</title>
-        <description>As we discussed before, the n-gram language model has a few problems
-like the data sparsity and the big storage need. That’s why these
-problems were first tackled by Bengio et al in 2003 and published under
-the name “A Neural Probabilistic Language
-Model”,
-which introduced the first large-scale deep learning for natural
-language processing model. This model learns a distributed
-representation of words, along with the probability function for word
-sequences expressed in terms of these representations. The idea behind
-this architecture is to deal with the language model task as if it is a
-classification problems where:
+        <title>Phuc Phan</title>
+        <description>🔭 AI/ NLP Research &amp; Engineer
 
 </description>
-        <pubDate>Sun, 09 Feb 2003 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/language-modeling/Neural_N-gram</link>
-        <guid isPermaLink="true">http://localhost:4000/language-modeling/Neural_N-gram</guid>
+        <pubDate>Thu, 24 Jul 1997 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/about-us/phucpx</link>
+        <guid isPermaLink="true">http://localhost:4000/about-us/phucpx</guid>
         
         
       </item>
@@ -61,38 +46,39 @@ classification problems where:
       
     
       
-    
-      
       <item>
-        <title>t-SNE</title>
-        <description>One of the popular things to do with word embedding, is to take this
-N-dimensional data and embed it in a two-dimensional space so that we
-can visualize them. The most common algorithm for doing this is the
-t-SNE algorithm created by Laurens van der Maaten and Geoffrey
-Hinton in 2008 and published in this paper: Visualizing data using
-t-SNE.
+        <title>Attention Mechanism</title>
+        <description>A potential issue with the Seq2Seq approach is that a neural network
+needs to be able to compress all the necessary information of a source
+sentence into a fixed-length vector (context vector). This may make it
+difficult for the neural network to cope with long sentences, especially
+those that are longer than the sentences in the training corpus. This
+paper: “On the Properties of Neural Machine Translation:
+Encoder–Decoder Approaches”
+showed that indeed the performance of a basic encoder–decoder
+deteriorates rapidly as the length of an input sentence increases.
 
 </description>
-        <pubDate>Tue, 25 Nov 2008 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/word-embedding/t-SNE</link>
-        <guid isPermaLink="true">http://localhost:4000/word-embedding/t-SNE</guid>
+        <pubDate>Mon, 01 Sep 2014 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/stories/Attention</link>
+        <guid isPermaLink="true">http://localhost:4000/stories/Attention</guid>
         
         
       </item>
       
       <item>
-        <title>Word2Vec</title>
-        <description>Word2Vec stands for “word-to-vector” is a model architecture created by
-Tomáš Mikolov from Google in 2013 and published in the paper: Efficient
-Estimation of Word Representations in Vector
-Space. This model aims at
-computing continuous vector representations of words from very large
-data sets.
+        <title>Align &amp; Translate with Transformers</title>
+        <description>In this part, we are going to take a deep look into this paper: Jointly
+Learning to Align and Translate with Transformer
+Models which was published by
+Apple Inc. in 2019. The official code for this paper can be found in the
+official Fairseq GitHub repository:
+fairseq/joint_alignment_translation.
 
 </description>
-        <pubDate>Sat, 07 Sep 2013 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/word-embedding/word2vec</link>
-        <guid isPermaLink="true">http://localhost:4000/word-embedding/word2vec</guid>
+        <pubDate>Wed, 04 Sep 2019 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/stories/Align_and_Translate</link>
+        <guid isPermaLink="true">http://localhost:4000/stories/Align_and_Translate</guid>
         
         
       </item>

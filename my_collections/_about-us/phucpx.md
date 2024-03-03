@@ -1,6 +1,7 @@
 ---
 title: "Phuc Phan"
 date: 1997-07-24
+order: 1
 cover: /phucpx0.jpg
 labs: ["Prep.VN"]
 ---
