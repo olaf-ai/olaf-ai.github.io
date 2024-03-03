@@ -6,7 +6,7 @@ cover: /anhnt0.jpeg
 labs: ["The Accost"]
 ---
 
-🔭 BDM/ HRM
+🔭 Business Development Manager
 
 
 📫 | [LinkedIn]() | [X (Twitter)]() | [Facebook](https://www.facebook.com/julieforw7) |
