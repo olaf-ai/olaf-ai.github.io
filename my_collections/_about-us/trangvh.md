@@ -6,7 +6,7 @@ cover: /trangvh0.jpg
 labs: ["Base.VN"]
 ---
 
-🔭 Marketing & Sales Specialist/ BDM
+🔭 Marketing & Sales Specialist/ Business Development Manager
 
 
 📫 | [LinkedIn]() | [X (Twitter)]() | [Facebook](https://www.facebook.com/hatrang305) |

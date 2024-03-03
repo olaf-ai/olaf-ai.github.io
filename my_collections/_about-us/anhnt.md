@@ -6,7 +6,7 @@ cover: /anhnt0.jpeg
 labs: ["The Accost"]
 ---
 
-🔭 Business Development Manager
+🔭 Financial & Human Resource/ Business Development Manager
 
 
 📫 | [LinkedIn]() | [X (Twitter)]() | [Facebook](https://www.facebook.com/julieforw7) |
